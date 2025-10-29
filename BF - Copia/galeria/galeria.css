@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imgl {
+  width: 250px;
+  height: auto;
+}
+.aheader{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin: 0px 30px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.aheader:hover{
+    transform: translateY(-2px);
+    opacity: 0.8;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.icon {
+  width: 40px;
+  fill: white;
+  height: auto;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+.navv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5660d;
+    height: 8vhS;
+    
+}
+body{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #000000;
+    background-color: rgb(247, 244, 240);
+   
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-right: 32px;
+    list-style: none;
+}
+
+.vitrine{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 40px;
+  padding: 90px;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.produto{
+    background-color: #fff; /*cr de fundo*/
+    border: 5px solid #ffb765;/*borda de 1px solida que nao vai alterar com a cor branca*/
+    border-radius: 30px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba (0,0,0,0.1); /*vai alterar quando passar o mouse*/
+    transition: 0.2s ease;
+    flex: 0 0 auto;
+    
+}
+
+.produto:hover{
+    transform: translateY(-5px);
+    border: 5px solid #ff8f10;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+
+}
+
+.produto h3{
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.preco{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin: 5px 0;
+
+}
+
+.parcelamento{
+    font-size: 14px;
+    color: #555;
+}
+.btn-comprar{
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    font-family: "New Amsterdam", sans-serif;
+    letter-spacing: 2px; /* aumenta o espaço entre letras */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-comprar:hover{
+    background-color: #dd6a40;
+ }
+/*-------------------------------------------------------------*/
+
+.vitrine-02{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 90px;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+    
+}
+
+.produto-02{
+    background-color: #fff; /*cr de fundo*/
+    border: 5px solid #ffb765;/*borda de 1px solida que nao vai alterar com a cor branca*/
+    border-radius: 30px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba (0,0,0,0.1); /*vai alterar quando passar o mouse*/
+    transition: 0.2s ease;
+    flex: 0 0 auto;
+    
+}
+
+.produto-02:hover{
+    transform: translateY(-5px);
+    border: 5px solid #ff8f10;
+}
+
+.produto-02 img {
+    width: 100%;
+    height: auto;
+}
+
+.produto-02 h3{
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.preço-02{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin: 5px 0;
+
+}
+
+.parcelamento-02{
+    font-size: 14px;
+    color: #555;
+}
+
+/*---------------------------------------------------------------*/
+
+.vitrine-03{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 90px;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+    
+}
+
+.produto-03{
+    background-color: #fff; /*cr de fundo*/
+    border: 5px solid #ffb765;/*borda de 1px solida que nao vai alterar com a cor branca*/
+    border-radius: 30px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba (0,0,0,0.1); /*vai alterar quando passar o mouse*/
+    transition: 0.2s ease;
+    flex: 0 0 auto;
+    
+}
+
+.produto-03:hover{
+    transform: translateY(-5px);
+    border: 5px solid #ff8f10;
+}
+
+.produto-03 img {
+    width: 100%;
+    height: auto;
+}
+
+.produto-03 h3{
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.preço-03{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin: 5px 0;
+
+}
+
+.parcelamento-03{
+    font-size: 14px;
+    color: #555;
+}
